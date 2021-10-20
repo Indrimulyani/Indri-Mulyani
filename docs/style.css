@@ -1,0 +1,149 @@
+
+html body {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    background-color: #FDFFE1;
+}
+b{
+    font-weight: 700;
+}
+
+div{
+    display: block;
+}
+div .header{
+    display: inline-block;
+}
+ul.nav{
+    top: 0;
+    list-style: none;
+    padding: 0;
+    margin top: 10px;
+    text-align: center;
+    background-color:#FDFFE1;
+}
+.nav > li{
+    display: inline-block;
+    margin: auto;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+.nav > li > a {
+    padding: 1em 5em;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.nav > li > a:hover {
+    background-color: burlywood;
+    border-radius: 30px;
+}
+
+#about{
+    margin:auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.img-iin{
+    max-width: 450px;
+    position:static;
+    padding: 3em 4em;
+    display: inline-block;
+    filter: grayscale(100%);
+    border-radius: 15%;
+}
+
+.kolom {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.kolom .welcome-text{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+p{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#portfolio{
+    position: relative;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#info {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+
+.wa , .gmail , .linkedin{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.wa a, .gmail a, .linkedin a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.wa a:hover, .gmail a:hover, .linkedin a:hover{
+    background-color: burlywood;
+}
+
+.wa {
+    margin-left:  230px;
+}
+.gmail{
+    margin-left: 90px;
+}
+.linkedin{
+    margin-left: 100px;
+}
+
+.iconwa{
+    margin-top: 30px;
+    max-width: 100px;
+    margin-left: 245px;
+}
+
+.icongmail{
+    margin-top: 30px;
+    max-width: 100px;
+    margin-left: 275px;
+}
+
+.iconlinkedin{
+    margin-top: 30px;
+    max-width: 100px;
+    margin-left: 280px;    
+}
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1.5em 0;
+    color: white;
+    background-color: black;
+}
+
